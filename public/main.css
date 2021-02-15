@@ -1,4 +1,30 @@
-*{
+* {
     margin: 0;
-    background-color: blue;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper {
+    display: flex;
+    max-height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#lay {
+    top: 0;
+    right: 0;
+    width: 400px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#file {
+    display: none;
 }
